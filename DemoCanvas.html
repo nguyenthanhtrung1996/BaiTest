@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6f317394db.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+</head>
+
+<body>
+  <canvas id="myChart"></canvas>
+  <script>
+    let myChart = document.getElementById("myChart").getContext('2d');
+    let mChart = new Chart(myChart, {
+      type:'line',
+      data:{
+        
+        labels:['Jan','Feb','Mar','Apr','May','Jun','Aug','Sep','Oct','Nov','Dec'],
+        datasets:[{
+          
+          backgroundColor: 'rgba(255,255,255,0)',
+          pointBorderColor: '#5689e9',
+          pointBackgroundColor: 'rgba(255,255,255,1)',
+          pointBorderWidth: 3,
+          borderColor: '#5f94f0',
+          data: [
+            44333.333333333333,
+            52666.66666666667,
+            60333.33333333333,
+            87333.33333333333,
+            80000,
+            68000,
+            83666.666666666667,
+            82333.333333333333,
+            18666.66666666667,
+            29666.666666666667,
+            39000
+          ]
+          
+        }]
+      },
+      options: {
+          legend: {
+              display: false
+          },
+          tooltips: {
+              callbacks: {
+                label: function(tooltipItem) {
+                        return tooltipItem.yLabel;
+                }
+              }
+          }
+      }
+    })
+  </script>
+  
+</body>
+
+</html>

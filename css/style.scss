@@ -1,0 +1,1159 @@
+body{
+    
+    font-size: 62.5%;
+    font-family: Roboto;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 78.625rem;
+    background-color: #f5f5f5;
+    .dropdown{
+        // display: inline-block;
+        width: 13.5%;
+        height: 100%;
+        // height: 100%;
+        
+        .dropdown-main{
+            // height: 57px;
+            height: 4.3%;
+            border-bottom: 1px solid #607d9c;
+            background-color: #272f3c;
+            
+            .dropdown-box{
+                width: 100%;
+                height: 100%;
+                // margin: 0 0 0 10.2%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .dropdown-logo{
+                    width: 12.8%;
+                    height: 43%;
+                    margin-left: 10.2%;
+                    margin-right: 6.8%;
+                }
+                .dropdown-text{
+                    
+                    color: white;
+                    margin-right: 4.1%;
+                }
+                .dropdown-arrow{
+                    width: 3.7%;
+                    height: 12.6%;
+                    display: inline-block;
+                    color: white;
+                   cursor: pointer;
+                }
+            }
+        }
+        .dropdown-main:hover{
+            background-color: #468bfc;
+            cursor: pointer;
+        }
+        .dropdown-list{
+            width: 100%;
+            height: 50.6%;
+            background-color: #272f3c;
+            overflow-y: scroll;
+            // transition: 0.5s;
+            opacity: 0;
+            .dropdown-item{
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                color: #858d9b;
+                
+                .dropdown-display{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-dashboard{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                       
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-customer{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                       
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-order{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                       
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-product{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                       
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-report{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                       
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-website{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                       
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-social{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .dropdown-icon-arrow{
+                       
+                        position: absolute;
+                        right: 15.1%;
+                       
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-calendar{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-finance{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-percentage{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-user-plus{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-truck{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+                .dropdown-question{
+                    width:100%;
+                    height:7%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    position: relative;
+                    .dropdown-icon{
+                        
+                        margin: 0 5.3% 0 10.9%; 
+                    }
+                    .text{
+                        position: absolute;
+                        left: 24.6%;
+                    }
+                }
+            }
+            
+            .dropdown-item:hover{
+                background-color: #272f3c;
+            }
+        }
+        
+        .dropdown-list::-webkit-scrollbar{
+            
+            width: 5px;
+            
+        }
+        
+        .dropdown-list::-webkit-scrollbar-thumb {
+           
+            background-color: #aaa;
+        }
+        .dropdown-list::-webkit-scrollbar-thumb:hover {
+            background: #555;
+          } 
+    }
+    .content{
+        // display: inline-block;
+        width: 86.5%;
+        height: 100%;
+        // background-color: cadetblue;
+        .nav{
+            width: 100%;
+            height: 4.3%;
+            background-color: #ffffff;
+            border-bottom: solid 1px #eeedf2;
+            display: flex;
+            justify-content: flex-end;
+            .list-item{
+                width: 21.8%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                right: 0;
+                display: flex;
+                flex-direction: row;
+                // justify-content: flex-end;
+                .item{
+                    width: 19.8%;
+                    height: 100%;
+                    border-left: solid 1px #f4f4f4;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        font-size: 1rem;
+                    }
+                    .item-message{
+                        position: relative;
+                    }
+                    .item-message::after{
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        left: 100%;
+                        bottom: 60%;
+                        position: absolute;
+                        background-color: #e8596f;
+                    }
+                    .item-notification{
+                        position: relative;
+                    }
+                    .item-notification::after{
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        left: 100%;
+                        bottom: 60%;
+                        position: absolute;
+                        background-color: #e8596f;
+                    }
+                    
+                }
+                .item-logo{
+                    width: 60.4%;
+                    
+                    .logo-box{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // vertical-align: center;
+                        .logo{
+                            width: 18.9%;
+                            height: 52.5%;
+                            border: solid 1px #d8e0e6;
+                        }
+                        .text{
+                            
+                            margin: 0 0 0 5.8%;
+                        }
+                        .arrow{
+                            margin:0 0 0 8.1%;
+                        }
+                    }
+                }
+            }
+        }
+        .result{
+            width: 100%;
+            height: 18.5%;
+            padding: 0.83%;
+            .result-box{
+                // width: 98.3%;
+                height: 100%;
+                background-color: white;
+                border: 1px solid #ececec;
+                position: relative;
+                .header{
+                    left: 1.8%;
+                    top: 12.9%;
+                    position: absolute;
+                    font-size: 0.75rem;
+                    font-weight: 500;
+                }
+                .time-box{
+                    width: auto;
+                    position: absolute;
+                    top: 8.7%;
+                    right: 1.5%;
+                    border: 1px solid #ececec;
+                    border-radius: 5%;
+                    padding: 0.9%;
+                    font-weight: bolder;
+                    p{
+                        display: inline-block;
+                        margin: 0;
+                        // margin: 0 1.8% 0 0;
+                    }
+                    // .arrow{
+                        
+                    // }
+                }
+                .content-main{
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    .content-box{
+                        display: inline-block;
+                        border: solid 1px #ececec;
+                        width: 22.7%;
+                        height:  41.2%;
+                        position: absolute;
+                    }
+                    .content-lead{
+                        left: 1.8%;
+                        top: 39.6%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .logo{
+                            display: inline-block;
+                            width: 19.2%;
+                            height: 57.4%;
+                            background-color: #468bfc;
+                            border-radius: 50%;
+                            color: white;
+                            position: relative;
+                            margin: 0 7.1% 0 7.6%;
+                            .icon{
+                                position: absolute;
+                                left: 41%;
+                                top: 37%;
+                            }
+                        }
+                        .data{
+                            display: inline-block;
+                            .number{
+                                color: #5084d1;
+                            }
+                            .text{
+                                color: #a4afba;
+                            }
+                        }
+                    }
+                    .content-custom{
+                        left: 26.2%;
+                        top: 39.6%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .logo{
+                            display: inline-block;
+                            width: 19.2%;
+                            height: 57.4%;
+                            background-color: #40cb99;
+                            border-radius: 50%;
+                            color: white;
+                            position: relative;
+                            margin: 0 7.1% 0 7.6%;
+                            .icon{
+                                position: absolute;
+                                left: 41%;
+                                top: 37%;
+                            }
+                        }
+                        .data{
+                            display: inline-block;
+                            .number{
+                                color: #5084d1;
+                            }
+                            .text{
+                                color: #a4afba;
+                            }
+                        }
+                    }
+                    .content-order{
+                        top: 39.6%;
+                        left: 50.9%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .logo{
+                            display: inline-block;
+                            width: 19.2%;
+                            height: 57.4%;
+                            background-color: #f6c134;
+                            border-radius: 50%;
+                            color: white;
+                            position: relative;
+                            margin: 0 7.1% 0 7.6%;
+                            .icon{
+                                position: absolute;
+                                left: 41%;
+                                top: 37%;
+                            }
+                        }
+                        .data{
+                            display: inline-block;
+                            .number{
+                                color: #5084d1;
+                            }
+                            .text{
+                                color: #a4afba;
+                            }
+                        }
+                    }
+                    .content-revenue{
+                        top: 39.6%;
+                        left: 75.6%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .logo{
+                            display: inline-block;
+                            width: 19.2%;
+                            height: 57.4%;
+                            background-color: #fb545c;
+                            border-radius: 50%;
+                            color: white;
+                            position: relative;
+                            margin: 0 7.1% 0 7.6%;
+                            .icon{
+                                position: absolute;
+                                left: 41%;
+                                top: 37%;
+                            }
+                        }
+                        .data{
+                            display: inline-block;
+                            .number{
+                                color: #5084d1;
+                            }
+                            .text{
+                                color: #a4afba;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+        .revenue{
+            width: 100%;
+            height: 39.5%;
+            // background-color: yellowgreen;
+            padding: 0.7840772014475271% 0 1.507840772014475% 0;
+            .row{
+                width: 98.3%;
+                height: 100%;
+                // background-color: turquoise;
+                margin: 0 0 0 0.85%;
+                position: relative;
+                .table-revenue{
+                    width: 66.16405307599517%;
+                    height: 100%;
+                    background-color: white;
+                    border: 1px solid #ececec;
+                    position: relative;
+                    .table-revenue__header{
+                        margin: 3.375912408759124% 2.007299270072993% 0 1.642335766423358%;
+                        font-size: 0.75rem;
+                        font-weight: 500;
+                        position: relative;
+                        .revenue-child{
+                            display: inline-block;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .time-box{
+                            display: inline-block;
+                            
+                            position: absolute;
+                            top: -20%;
+                            right: 0;
+                            border: 1px solid #ececec;
+                            border-radius: 5%;
+                            padding: 0.9%;
+                            font-weight: bolder;
+                            p{
+                                
+                                display: inline-block;
+                                margin: 0;
+                                
+                            }
+                            
+                        }
+                    }
+                    .table-revenue__footer{
+                        width: 100%;
+                        height: 16%;
+                        position: absolute;
+                        bottom: 0;
+                        display: flex;
+                        flex-direction: row;
+                        color: #929598;
+                        .footer__left{
+                            // display: inline-block;
+                            width: 50%;
+                            height: 100%;
+                            border-top: 1px solid #ececec;
+                            border-right: 1px solid #ececec;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            
+                            .p_{
+                                
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .p_1{
+                                text-align: center;
+                                
+                            }
+                        }
+                        .footer__right{
+                            // display: inline-block;
+                            width: 50%;
+                            height: 100%;
+                            border-top: 1px solid #ececec;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            .p_{
+                                
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .p_1{
+                                text-align: center;
+                               
+                            }
+                        }
+                    }
+                }
+                .notification{
+                    width: 32.08685162846803%;
+                    height: 100%;
+                    background-color: white;
+                    position: absolute;
+                    right: 0;
+                    border: 1px solid #ececec;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    // position: relative;
+                    .notification__box{
+                        width: 90.2%;
+                        height: 100%;
+                        
+                        top: 4.296296296296296%;
+                        position: absolute;
+                        .header{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: flex-end;
+                            .header__main{
+                                font-size: 0.8rem;
+                                font-weight: bolder;
+                                // vertical-align: bottom;
+                            }
+                            .header__more{
+                                // vertical-align: bottom;
+                                color: #7fa2ce;
+                            }
+                        }
+                        .content-notification{
+                            // position: absolute;
+                            width: 100%;
+                            height: 48.14814814814815%;
+                            
+                            
+                            .notification-box{
+                                height: 25%;
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-end;
+                            }
+                            .content-ticket{
+                                .notification-box__all{
+                                    width: 100%;
+                                    height: 59.75609756097561%;
+                                    position: relative;
+                                
+                                    .notification-box__logo--background{
+                                    display: inline-block;
+                                        width: 10.20833333333333%;
+                                        height: 100%;
+                                        background-color: #f4c92a;
+                                        border-radius: 50%;
+                                        position: relative;
+                                        i{
+                                            position: absolute;
+                                            top: 34.69387755102041%;
+                                            left: 35.6530612244898%;
+                                            color: white;
+                                        }
+                                    }
+                                    .notification-box__text{
+                                        display: inline-block;
+                                        height: 100%;
+                                        top: 12.3265306122449%;
+                                        left: 13.75%;
+                                        position: absolute;
+                                        .p{
+                                            margin: 0;
+                                        }
+                                        .p1{
+                                            font-weight: bolder;
+                                        }
+                                        .p2{
+                                            color: #a4a4a4;
+                                        }
+                                    }
+                                    .notification-box__time{
+                                        display: inline-block;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 26.53061224489796%;
+                                        color: #a4a4a4;
+                                    }
+                                }
+                            
+                                
+                            }
+                            .content-order{
+                                .notification-box__all{
+                                    width: 100%;
+                                    height: 59.75609756097561%;
+                                    position: relative;
+                                
+                                    .notification-box__logo--background{
+                                    display: inline-block;
+                                        width: 10.20833333333333%;
+                                        height: 100%;
+                                        background-color: #4b92fa;
+                                        border-radius: 50%;
+                                        position: relative;
+                                        i{
+                                            position: absolute;
+                                            top: 34.69387755102041%;
+                                            left: 35.6530612244898%;
+                                            color: white;
+                                        }
+                                    }
+                                    .notification-box__text{
+                                        display: inline-block;
+                                        height: 100%;
+                                        top: 12.3265306122449%;
+                                        left: 13.75%;
+                                        position: absolute;
+                                        .p{
+                                            margin: 0;
+                                        }
+                                        .p1{
+                                            font-weight: bolder;
+                                        }
+                                        .p2{
+                                            color: #a4a4a4;
+                                        }
+                                    }
+                                    .notification-box__time{
+                                        display: inline-block;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 26.53061224489796%;
+                                        color: #a4a4a4;
+                                    }
+                                }
+                            
+                                
+                            }
+                            .content-meetup{
+                                .notification-box__all{
+                                    width: 100%;
+                                    height: 59.75609756097561%;
+                                    position: relative;
+                                
+                                    .notification-box__logo--background{
+                                    display: inline-block;
+                                        width: 10.20833333333333%;
+                                        height: 100%;
+                                        background-color: #31cbde;
+                                        border-radius: 50%;
+                                        position: relative;
+                                        i{
+                                            position: absolute;
+                                            top: 34.69387755102041%;
+                                            left: 35.6530612244898%;
+                                            color: white;
+                                        }
+                                    }
+                                    .notification-box__text{
+                                        display: inline-block;
+                                        height: 100%;
+                                        top: 12.3265306122449%;
+                                        left: 13.75%;
+                                        position: absolute;
+                                        .p{
+                                            margin: 0;
+                                        }
+                                        .p1{
+                                            font-weight: bolder;
+                                        }
+                                        .p2{
+                                            color: #a4a4a4;
+                                        }
+                                    }
+                                    .notification-box__time{
+                                        display: inline-block;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 26.53061224489796%;
+                                        color: #a4a4a4;
+                                    }
+                                }
+                            
+                                
+                            }
+                            .content-enquiry{
+                                .notification-box__all{
+                                    width: 100%;
+                                    height: 59.75609756097561%;
+                                    position: relative;
+                                
+                                    .notification-box__logo--background{
+                                    display: inline-block;
+                                        width: 10.20833333333333%;
+                                        height: 100%;
+                                        background-color: #47c798;
+                                        border-radius: 50%;
+                                        position: relative;
+                                        i{
+                                            position: absolute;
+                                            top: 34.69387755102041%;
+                                            left: 35.6530612244898%;
+                                            color: white;
+                                        }
+                                    }
+                                    .notification-box__text{
+                                        display: inline-block;
+                                        height: 100%;
+                                        top: 12.3265306122449%;
+                                        left: 13.75%;
+                                        position: absolute;
+                                        .p{
+                                            margin: 0;
+                                        }
+                                        .p1{
+                                            font-weight: bolder;
+                                        }
+                                        .p2{
+                                            color: #a4a4a4;
+                                        }
+                                    }
+                                    .notification-box__time{
+                                        display: inline-block;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 26.53061224489796%;
+                                        color: #a4a4a4;
+                                    }
+                                }
+                            
+                                
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .footer{
+            width: 100%;
+            height: 35.22537562604341%;
+            
+            padding: 0 0.85%;
+            position: relative;
+            .footer__box{
+                border: 1px solid #ececec;
+                
+                width: 48.33926453143535%;
+                height: 100%;
+                background-color: white;
+                display: inline-block;
+            }
+            .new-client{
+                .new-client__all{
+                    width: 100%;
+                    height: 100%;
+                    
+                    position: relative;
+                    padding: 3.190184049079755% 3.312883435582822% 6.748466257668712% 3.803680981595092%;
+                    .new-client__header{
+                        width: 100%;
+                        background-color:white;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        .p{
+                            margin: 0;
+                        }
+                        .p1{
+                            font-size: 0.75rem;
+                            font-weight: 500;
+                        }
+                        .p2{
+                            color: #8db7d4;
+                            cursor: pointer;
+                        }
+                    }
+                    .new-client__content{
+                        width: 92.88343558282209%;
+                        height: 80.25276461295419%;
+                        background-color: white;
+                        position: absolute;
+                        bottom: 6.748466257668712%;
+                        overflow-y: scroll;
+                        .new-client__box{
+                            width: 100%;
+                            height: 17.13147410358566%;
+                            
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-end;
+                            .new-client__info{
+                                height: 52.32558139534884%;
+                                width: 100%;
+                                position: relative;
+                                img{
+                                    
+                                    width: 6.19235836627141%;
+                                    height: 100%;
+                                }
+                                .new-client__text{
+                                    height: 100%;
+                                    // display: inline-block;
+                                    position: absolute;
+                                    left: 8.421052631578947%;
+                                    top: 0;
+                                    .p{
+                                        margin: 0;
+                                    }
+                                    .p1{
+                                        font-weight: bold;
+                                    }
+                                    .p2{
+                                        color: #b6b4bd;
+                                    }
+                                }
+                                .new-client__day{
+                                    position: absolute;
+                                    left: 68.94736842105263%;
+                                    top: 0;
+                                    color:  #b6b4bd;
+                                    margin: 0;
+                                }
+                                .new-client__money{
+                                    position: absolute;
+                                    left: 89.60526315789474%;
+                                    top: 0;
+                                    font-weight: 500;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                    .new-client__content::-webkit-scrollbar{
+            
+                        width: 5px;
+                        
+                    }
+                    
+                    .new-client__content::-webkit-scrollbar-thumb {
+                       
+                        background-color: #aaa;
+                    }
+                    .new-client__content::-webkit-scrollbar-thumb:hover {
+                        background: #838383;
+                      } 
+                }
+            }
+            .new-order{
+                position: absolute;
+                right: 0.85%;
+                .new-order__all{
+                    width: 100%;
+                    height: 100%;
+                    // background-color: springgreen;
+                    position: relative;
+                    padding: 3.190184049079755% 3.312883435582822% 6.748466257668712% 3.803680981595092%;
+                    .new-order__header{
+                        width: 100%;
+                        background-color:white;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        .p{
+                            margin: 0;
+                        }
+                        .p1{
+                            font-size: 0.75rem;
+                            font-weight: 500;
+                        }
+                        .p2{
+                            color: #8db7d4;
+                            cursor: pointer;
+                        }
+                    }
+                    .new-order__content{
+                        width: 92.88343558282209%;
+                        height: 80.25276461295419%;
+                        background-color: white;
+                        position: absolute;
+                        bottom: 6.748466257668712%;
+                        overflow-y: scroll;
+                        .new-order__box{
+                            width: 100%;
+                            height: 15.53784860557769%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-end;
+                            position: relative;
+                            .p{
+                                color: #afb2b8;
+                                margin: 0;
+                            }
+                            .l_2{
+                                position: absolute;
+                                left: 27.77777777777778%;
+                            }
+                            .l_3{
+                                position: absolute;
+                                left: 51.19047619047619%;
+                            }
+                            .l_4{
+                                position: absolute;
+                                left: 66.13756613756614%;
+                                
+                            }
+                            .t_4{
+
+                                top: 65.38461538461538%;
+                            }
+                            .button_green{
+                                background-color: #4fc49c;
+                                color: white;
+                                padding: 1.058201058201058% 1.587301587301587%;
+                                border-radius: 5%;
+                            }.button_yellow{
+                                background-color: #fcbc3f;
+                                color: white;
+                                padding: 1.058201058201058% 1.587301587301587%;
+                                border-radius: 5%;
+                            }
+                            .button_red{
+                                background-color: #ec586c;
+                                color: white;
+                                padding: 1.058201058201058% 1.587301587301587%;
+                                border-radius: 5%;
+                            }
+                            .icon{
+                                position: absolute;
+                                left: 93.38624338624339%;
+                                color: #afb2b8;
+                                bottom: 6.41025641025641%;
+                            }
+                        }
+                    }
+                    .new-order__content::-webkit-scrollbar{
+            
+                        width: 5px;
+                        
+                    }
+                    
+                    .new-order__content::-webkit-scrollbar-thumb {
+                       
+                        background-color: #aaa;
+                    }
+                    .new-order__content::-webkit-scrollbar-thumb:hover {
+                        background: #838383;
+                      } 
+                }
+            }
+        }
+    }
+}
